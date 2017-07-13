@@ -1,0 +1,122 @@
+body {
+  font-size: 0px;
+}
+#header-container {
+  background: rgba(250, 250, 250, 0.9);
+}
+#header-container .search-container #search {
+  width: 72%;
+  background: #e8e8e8;
+}
+#header-container .search-container label.back {
+  width: .34rem;
+  height: .5rem;
+  background: url(../image/home/common_back@2x.png) center no-repeat;
+  background-size: 100%;
+  margin: 0 .4rem;
+}
+#header-container .search-container label.layout {
+  width: .66rem;
+  height: .66rem;
+  background-size: 100%;
+  margin: 0 .4rem;
+}
+#header-container .search-container label.layout.pinterest {
+  background: url(../image/home/classify_pinterest@2x.png) center no-repeat;
+}
+#header-container .search-container label.layout.list {
+  background: url(../image/home/classify_list@2x.png) center no-repeat;
+}
+#order {
+  width: 100%;
+  height: 1.06rem;
+  background: #e8e8e8;
+  position: fixed;
+  top: 1.17rem;
+  left: 0;
+}
+#order li {
+  display: inline-block;
+  width: 33%;
+  height: 1.06rem;
+  line-height: 1.06rem;
+  text-align: center;
+}
+#order li .order-item {
+  font-size: 30px;
+  color: #5c5c5c;
+}
+#order li .order-item.active {
+  color: #fb4a4a;
+}
+#order li .order-item .price-order {
+  display: inline-block;
+  width: .24rem;
+  height: .27rem;
+}
+#order li .order-item .price-order span {
+  display: block;
+  width: 100%;
+  height: .13rem;
+}
+#order li .order-item .price-order span.cheap {
+  background: url(../image/home/classify_arrow_up_normal@2x.png) center no-repeat;
+}
+#order li .order-item .price-order span.cheap.active {
+  background-image: url(../image/home/classify_arrow_up_pressed@2x.png);
+}
+#order li .order-item .price-order span.expensive {
+  background: url(../image/home/classify_arrow_down_normal@2x.png) center no-repeat;
+  margin-top: .08rem;
+}
+#order li .order-item .price-order span.expensive.active {
+  background-image: url(../image/home/classify_arrow_down_pressed@2x.png);
+}
+#search-result-container {
+  margin-top: 2.34rem;
+}
+#search-result-container.list ul .item {
+  width: 100%;
+  height: 2.93rem;
+  border-top: 1px solid #eee;
+  padding: .133rem;
+  background: #fff;
+}
+#search-result-container.list ul .item img {
+  width: 2.93rem;
+  height: 2.66rem;
+}
+#search-result-container.list ul .item .item-detail {
+  display: inline-block;
+  width: 6.5rem;
+  height: 2.66rem;
+  background: #fff;
+  padding: .2rem .4rem;
+  vertical-align: top;
+}
+#search-result-container.list ul .item .item-detail .title {
+  width: 4.49rem;
+  height: .96rem;
+  font-size: 26px;
+  color: #5c5c5c;
+  line-height: .48rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+#search-result-container.list ul .item .item-detail .price {
+  margin-top: .213rem;
+  font-size: 24px;
+  color: #fb4a4a;
+}
+#search-result-container.list ul .item .item-detail .more-info {
+  display: block;
+  font-size: 24px;
+  color: #bbb;
+  margin-top: .13rem;
+}
+#search-result-container.list ul .item .item-detail .more-info .buyers {
+  margin-left: .13rem;
+}

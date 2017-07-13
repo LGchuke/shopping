@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  max-height: 100%;
+}
+#receiver-container {
+  width: 100%;
+  padding: .4rem;
+  background: #fff;
+  border-bottom: 1px solid #bbb;
+  margin-bottom: .2rem;
+  margin-top: 1.17rem;
+}
+#receiver-container div:first-child {
+  font-size: 30px;
+}
+#receiver-container div:first-child .re-phone {
+  margin-left: .8rem;
+}
+#receiver-container div:last-child {
+  margin-top: .4rem;
+}
+#receiver-container div:last-child img {
+  width: .37rem;
+}
+#receiver-container div:last-child .re-address {
+  font-size: 28px;
+  color: #b5b5b5;
+  margin-left: .1rem;
+}
+#order-container .order-item {
+  background: #fff;
+  margin-bottom: .1rem;
+}
+#order-container .order-item .btn {
+  position: absolute;
+  right: 0;
+  bottom: .2rem;
+  font-size: 24px;
+}
+#order-data-container {
+  margin-top: .2rem;
+  padding: .4rem;
+  background: #fff;
+}
+#order-data-container p {
+  color: #b5b5b5;
+  font-size: 22px;
+}

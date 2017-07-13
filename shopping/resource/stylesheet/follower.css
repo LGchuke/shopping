@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+#second-header-container label.handbook {
+  background: none;
+  font-size: 30px;
+  color: #5c5c5c;
+  width: auto;
+  position: absolute;
+  right: .3rem;
+  top: -0.2rem;
+}
+#follower-container {
+  margin-top: 1.17rem;
+}
+#follower-container .level {
+  width: 100%;
+  line-height: 1.33rem;
+  font-size: 30px;
+  color: #5c5c5c;
+  border-bottom: 1px solid #bbb;
+  background: #fff;
+  padding: 0 .4rem;
+}
+#follower-container .level .level-item {
+  display: inline-block;
+  width: 100%;
+  height: 1.3rem;
+}
+#follower-container .level .level-item .arrow {
+  display: inline-block;
+  height: 1.33rem;
+  width: .5rem;
+  background: url(../image/member/icon_open_normal@2x.png) center no-repeat;
+  margin-right: .3rem;
+}
+#follower-container .level ul {
+  display: none;
+  width: 10rem;
+  margin-left: -0.4rem;
+}
+#follower-container .level ul .fo-item {
+  display: inline-table;
+  float: left;
+  vertical-align: middle;
+  width: 100%;
+  height: .96rem;
+  background: #fff;
+  padding: 0 .4rem;
+  font-size: 26px;
+}
+#follower-container .level ul .fo-item:first-child {
+  border-top: 1px solid #bbb;
+}
+#follower-container .level ul .fo-item .fo-avatar {
+  vertical-align: middle;
+  border-radius: 100%;
+  margin-right: .2rem;
+}
+#follower-container .level ul .fo-item > span:last-child {
+  display: inline-block;
+  width: 1.5rem;
+  height: .5rem;
+  line-height: .5rem;
+  border: 1px solid #fb4a4a;
+  border-radius: 1.34rem;
+  text-align: center;
+  margin-top: .4rem;
+  font-size: 20px;
+}
+#follower-container .level.open .arrow {
+  background-image: url(../image/member/icon_closeup_normal@2x.png);
+}
+#follower-container .level.open ul {
+  display: table;
+}

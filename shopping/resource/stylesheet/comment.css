@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  max-height: 100%;
+}
+#container {
+  margin-top: 1.17rem;
+}
+#container #nav {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  display: table;
+  background: #fff;
+  position: fixed;
+  z-index: 2;
+  top: 1.17rem;
+  left: 0;
+}
+#container #nav .nav-item {
+  width: 20%;
+  display: table-cell;
+  height: 1.17rem;
+  font-size: 24px;
+  text-align: center;
+  vertical-align: middle;
+}
+#container #nav .nav-item.active {
+  color: #fb4a4a;
+}
+#container #comment {
+  margin-top: 2.34rem;
+}
+#container #comment .comment-item {
+  margin-top: .26rem;
+  width: 100%;
+  padding-left: .4rem;
+  background: #fff;
+}
+#container #comment .comment-item .header {
+  width: 100%;
+  height: 1.46rem;
+  line-height: 1.46rem;
+  border-bottom: 1px solid #ddd;
+}
+#container #comment .comment-item .header .avatar {
+  vertical-align: middle;
+  width: .66rem;
+  height: .66rem;
+  border-radius: 100%;
+}
+#container #comment .comment-item .header .name {
+  font-size: 24px;
+  color: #5c5c5c;
+  margin-left: .26rem;
+  vertical-align: middle;
+}
+#container #comment .comment-item .header .date {
+  font-size: 24px;
+  color: #5c5c5c;
+  margin-right: .4rem;
+}
+#container #comment .comment-item .main {
+  padding-right: .3rem;
+  padding-bottom: .4rem;
+  overflow: hidden;
+}
+#container #comment .comment-item .main .star {
+  margin: .2rem 0;
+}
+#container #comment .comment-item .main .star img {
+  margin-right: 3px;
+}
+#container #comment .comment-item .main .text {
+  font-size: 24px;
+}
+#container #comment .comment-item .main .show img {
+  margin-top: .15rem;
+  margin-right: .15rem;
+  width: 2.13rem;
+  height: 2.13rem;
+}
+#container #comment .comment-item .main .reply {
+  margin-top: .4rem;
+  width: 8.3rem;
+  background: #ddd;
+  font-size: 24px;
+  padding: .3rem .4rem;
+  border-radius: .08rem;
+  position: relative;
+}
+#container #comment .comment-item .main .reply:before {
+  content: "";
+  border: .2rem solid transparent;
+  border-bottom-color: #ddd;
+  position: absolute;
+  left: .5rem;
+  top: -0.35rem;
+}

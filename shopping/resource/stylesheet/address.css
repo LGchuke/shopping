@@ -1,0 +1,65 @@
+html {
+  background: #fff;
+}
+* {
+  box-sizing: border-box;
+}
+#second-header-container label.delete {
+  width: auto;
+  position: absolute;
+  top: .04rem;
+  right: .4rem;
+  margin: 0;
+  font-size: 32px;
+}
+.container {
+  margin-top: 2.17rem;
+}
+.container .common-line input {
+  border: none;
+  font-size: 28px;
+  margin-left: .48rem;
+}
+.container .common-line #address-select-box {
+  position: absolute;
+  z-index: 2;
+  left: 2.5rem;
+  top: .35rem;
+}
+.container .common-line #address-select-box ul.select-container {
+  width: 1.8rem;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  height: .6rem;
+}
+.container .common-line #address-select-box ul.select-container li {
+  font-size: 28px;
+  height: .7rem;
+  text-align: center;
+  line-height: .6rem;
+  background: #fff;
+  white-space: nowrap;
+}
+.container .common-line #address-select-box ul.select-container li.selected {
+  height: .7rem;
+  border: 1px solid #b5b5b5;
+}
+.container .common-line #address-select-box ul.select-container li.item {
+  border: 1px solid #b5b5b5;
+}
+.container .common-line #address-select-box ul.select-container li.item.active {
+  background: #fb4a4a;
+  color: #fff;
+}
+.container .common-line #address-select-box ul.option-container {
+  height: 0;
+  overflow-y: scroll;
+  overflow-x: visible;
+}
+.container .common-line #address-select-box ul.option-container.active {
+  height: 5rem;
+}
+.container .common-btn {
+  margin-top: 2.4rem;
+}

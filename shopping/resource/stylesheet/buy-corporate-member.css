@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin-top: 1.8rem;
+  padding: .4rem;
+}
+.container p:first-child {
+  font-size: 36px;
+}
+.container p:nth-child(2) {
+  font-size: 32px;
+  margin-top: 1rem;
+}
+.container .common-btn {
+  margin-top: 3rem;
+}
